@@ -15,7 +15,7 @@
 	<name>projectmanager</name>
 	<description>Project Management System</description>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>21</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
