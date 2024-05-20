@@ -36,7 +36,7 @@ public class ProjectController {
 
     @GetMapping("/acceptInvite")
     public ResponseEntity<Invitation> acceptInviation(@RequestParam final String token,
-            @RequestHeader("Authorisation") final String jwt) {
+            @RequestHeader("Authorization") final String jwt) {
         try {
             final var user = userService.findUserByJwt(jwt);
             final var invitation = invitationService.acceptInvitation(token, user.getId());
