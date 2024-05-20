@@ -1,14 +1,12 @@
 package com.org.projectmanager.service;
 
+import com.org.projectmanager.model.Comment;
 import java.util.List;
 
-import com.org.projectmanager.model.Comment;
-
 public interface CommentService {
+  Comment createComment(Long issueId, Long userId, String comment);
 
-    Comment createComment(Long issueId, Long userId, String comment);
+  void deleteComment(Long commentId, Long userId);
 
-    void deleteComment(Long issueId, Long userId);
-
-    List<Comment> getCommentsByIssueId(Long issueId);
+  List<Comment> getCommentsByIssueId(Long issueId);
 }
