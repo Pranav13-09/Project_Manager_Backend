@@ -42,6 +42,6 @@ Welcome to the Project Manager Backend repository. This backend service is desig
    ```
 ## Usage
 API Endpoints
-For detailed API documentation, visit API Documentation[https://projectmanagerbackend-production.up.railway.app/swagger-ui/index.html#/].
+For detailed API documentation, visit [API Documentation](https://projectmanagerbackend-production.up.railway.app/swagger-ui/index.html#/).
 
    
