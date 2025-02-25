@@ -1,3 +1,5 @@
+Repo for the frontend : https://github.com/Pranav13-09/Project_Manager_Frontend
+
 # Project Manager Backend
 
 Welcome to the Project Manager Backend repository. This backend service is designed to manage projects, team collaborations, and communication efficiently.
@@ -43,5 +45,8 @@ Welcome to the Project Manager Backend repository. This backend service is desig
 ## Usage
 API Endpoints
 For detailed API documentation, visit [API Documentation](https://projectmanagerbackend-production.up.railway.app/swagger-ui/index.html#/).
+
+
+Repo for the frontend : https://github.com/Pranav13-09/Project_Manager_Frontend
 
    
